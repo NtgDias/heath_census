@@ -96,4 +96,5 @@ function searchCondition() {
             resultDiv.innerHTML = 'An error occurred while fetching data.';
         });
 }
+
 btnSearch.addEventListener('click', searchCondition);
